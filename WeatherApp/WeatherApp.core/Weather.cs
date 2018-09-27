@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace WeatherApp.Core
+namespace WeatherApp.core
 {
     public class Weather
     {
