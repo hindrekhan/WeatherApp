@@ -69,11 +69,11 @@
 		<ImageView
 			android:src="@android:drawable/ic_menu_gallery"
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
+			android:layout_height="212.5dp"
 			android:id="@+id/weatherIcon"
 			android:minWidth="500px"
 			android:minHeight="500px"
-			android:layout_gravity="center" />
+			android:layout_gravity="center"/>
 		<LinearLayout
 			android:orientation="horizontal"
 			android:minWidth="25px"
@@ -104,26 +104,4 @@
 				android:layout_gravity="right" />
 		</LinearLayout>
 	</LinearLayout>
-	<LinearLayout
-		android:orientation="horizontal"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_below="@id/linearLayout1"
-		android:id="@+id/linearLayout41" >
-		<TextView
-			android:text="Funded by:"
-			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/textView1"
-			android:textColor="#ff000000" />
-	</LinearLayout>
-	<ImageView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_below="@id/linearLayout41"
-		android:id="@+id/imageView1"
-		android:src="@drawable/develly" />
 </RelativeLayout>
