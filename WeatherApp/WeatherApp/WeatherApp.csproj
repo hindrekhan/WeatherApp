@@ -125,9 +125,6 @@
     <AndroidResource Include="Resources\drawable\_50d.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\develly.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\_01n.png" />
   </ItemGroup>
   <ItemGroup>

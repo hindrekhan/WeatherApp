@@ -47,13 +47,17 @@ namespace WeatherApp
 
             SwapProgressBar();
             var weather = await Core.Core.GetWeather(input.Text);
-            temperature.Text = weather.Temperature;
-            pressure.Text = weather.Pressure;
-            windSpeed.Text = weather.WindSpeed;
+            if(weather != null)
+            {
+                temperature.Text = weather.Temperature;
+                pressure.Text = weather.Pressure;
+                windSpeed.Text = weather.WindSpeed;
 
-            weatherIcon.SetImageResource(Resources.GetIdentifier(weather.ImageName, "drawable", PackageName));
+                weatherIcon.SetImageResource(Resources.GetIdentifier(weather.ImageName, "drawable", PackageName));
+                SwapWeather();
+            }
+
             SwapProgressBar();
-            SwapWeather();
         }
 
         private void SwapWeather()
